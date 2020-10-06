@@ -3,6 +3,10 @@
   "compilerOptions": {
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
+    "paths": {
+      "@app/*": [ "./src/app/*" ],
+      "@controllers/*": [ "src/app/controllers/*" ]
+    },
     "sourceMap": true,
     "declaration": false,
     "downlevelIteration": true,
